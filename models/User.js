@@ -6,7 +6,7 @@ const userSchema = new mongoose.Schema({
   email: { type: String, required: true, trim: true },
   password: { type: String, required: true, trim: true },
   tc: { type: Boolean, required: true }
-});
+}); 
  
 // Create the UserModel
 const UserModel = mongoose.model("User", userSchema);
