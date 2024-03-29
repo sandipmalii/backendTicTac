@@ -7,7 +7,7 @@ import connectDB from './config/connectdb.js';
 import userRoutes from './routes/userRoutes.js';
 
 const app = express();
-const port = process.env.PORT || 3000; // Use a default port if PORT is not set
+const port = process.env.PORT || 8000; // Use a default port if PORT is not set
 
 // CORS Policy
 app.use(cors());
